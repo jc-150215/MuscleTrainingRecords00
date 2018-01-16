@@ -13,16 +13,16 @@ namespace MuscleTrainingRecords00
     public partial class RecordListPage : ContentPage
     {
         private string test;
-        public  RecordListPage()
+        public  RecordListPage(String i)
         {
             InitializeComponent();
             
-            
+            //DisplayAlert("test", i, "OK");
             //test = i;
 
             //Records1.ItemsSource = test;
 
-            
+            name.Text = i;
         }
 
 
