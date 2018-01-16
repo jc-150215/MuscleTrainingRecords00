@@ -13,7 +13,7 @@ namespace MuscleTrainingRecords00
     public partial class MenudetaliPage : ContentPage
     {
         string t;
-        public MenudetaliPage(String l, String m)
+        public MenudetaliPage(String l, String m)//String m
         {
             InitializeComponent();
 
@@ -28,7 +28,7 @@ namespace MuscleTrainingRecords00
         private void addItemButton_Clicked(object sender, EventArgs e)
         {
             String i = t;
-            Navigation.PushAsync(new RecordListPage(i));
+            Navigation.PushAsync(new RecordListPage());
 
         }
 
