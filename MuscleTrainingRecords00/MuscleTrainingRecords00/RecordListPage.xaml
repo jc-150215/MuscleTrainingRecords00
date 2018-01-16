@@ -67,7 +67,9 @@
                       SeparatorColor="Black"
                       ItemTapped="Records1_ItemTapped" />
            -->
-            <Label x:Name="name"/>
+            <StackLayout>
+            <Label Tet="" x:Name="name"/>
+            </StackLayout>
 
 
             <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />
