@@ -68,7 +68,7 @@
                       ItemTapped="Records1_ItemTapped" />
            -->
             <StackLayout>
-            <Label Tet="" x:Name="name"/>
+            <Label Text="" x:Name="name"/>
             </StackLayout>
 
 
