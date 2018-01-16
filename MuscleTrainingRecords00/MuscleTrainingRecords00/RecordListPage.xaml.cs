@@ -17,12 +17,12 @@ namespace MuscleTrainingRecords00
         {
             InitializeComponent();
             
-            DisplayAlert("test", i, "OK");
+            
             //test = i;
 
             //Records1.ItemsSource = test;
 
-            //name.Text = i;
+            name.Text = i;
         }
 
 
