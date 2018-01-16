@@ -13,70 +13,12 @@ namespace MuscleTrainingRecords00
     public partial class RecordListPage : ContentPage
     {
         private string test;
-        public  RecordListPage()
+        public  RecordListPage(string i)
         {
             InitializeComponent();
-            /*var layout = new StackLayout { HorizontalOptions = LayoutOptions.Center, Margin = new Thickness { Top = 100 } };
-            //Userテーブルに適当なデータを追加
-            MuscleMenuModelCS.insertUser("鈴木");
-            MuscleMenuModelCS.insertUser("田中");
-            MuscleMenuModelCS.insertUser("斎藤");
-            //Userテーブルの行データを取得
-            var query = MuscleMenuModelCS.selectUser();
-            foreach (var Memo in query)
-            {
-                //Userテーブルの名前列をLabelに書き出します
-                layout.Children.Add(new Label { Text = Memo.Name });
-            }
-            Content = layout;
-        }*/
-
-            /*var layout = new StackLayout {VerticalOptions = LayoutOptions.Center, Margin = new Thickness { Top = 100 } };
-            var record = RecordsModel.SelectRecords();
-        if(record != null) { 
-
-            foreach (var Memo in record)
-            {
-                layout.Children.Add(new Label { Text = Memo.M_date.ToString("yyyy/MM/dd") , HorizontalOptions = LayoutOptions.Start});
-                layout.Children.Add(new Label { Text = Memo.M_weight.ToString(), HorizontalOptions = LayoutOptions.Start });
-                layout.Children.Add(new Label { Text = Memo.M_set.ToString(),  HorizontalOptions = LayoutOptions.Start });
-                layout.Children.Add(new Label { Text = Memo.M_leg.ToString(),  HorizontalOptions = LayoutOptions.Start});
-
-
-
-            }
-
-
-        }
-
-        var insertButton = new Button
-        {
-            HorizontalOptions=LayoutOptions.EndAndExpand,
-            VerticalOptions = LayoutOptions.EndAndExpand,
-            Text = "メニュー追加",
-            BackgroundColor = Color.LightSkyBlue,
-            TextColor = Color.Snow,
-            FontSize = 30,
-
-
-        };
-        var RefreshingButton = new Button
-        {
-            HorizontalOptions = LayoutOptions.EndAndExpand,
-            VerticalOptions = LayoutOptions.EndAndExpand,
-            Text = "更新",
-            BackgroundColor = Color.LightSkyBlue,
-            TextColor = Color.Snow,
-            FontSize = 30,
-        };
-        insertButton.Clicked += insertButtonClicked;
-        layout.Children.Add(insertButton);
-        RefreshingButton.Clicked += RefreshingButtonClicked;
-        layout.Children.Add(RefreshingButton);
-
-        Content = layout;*/
-            DisplayAlert("test", "test", "OK");
-            //test = i;
+            
+            DisplayAlert("test", test, "OK");
+            test = i;
 
             //Records1.ItemsSource = test;
 
