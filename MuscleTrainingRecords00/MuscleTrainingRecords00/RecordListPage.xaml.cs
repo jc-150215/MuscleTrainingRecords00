@@ -17,19 +17,19 @@ namespace MuscleTrainingRecords00
         {
             InitializeComponent();
             
-            DisplayAlert("test", test, "OK");
-            test = i;
+            DisplayAlert("test", i, "OK");
+            //test = i;
 
             //Records1.ItemsSource = test;
 
-            name.Text = test;
+            //name.Text = test;
         }
 
 
         
         private void RecordListButton(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MenuPage());
+            //Navigation.PushAsync(new MenuPage());
         }
 
         /*private void Records1_ItemTapped(object sender, ItemTappedEventArgs e)
