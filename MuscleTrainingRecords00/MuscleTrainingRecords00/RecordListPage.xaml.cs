@@ -13,7 +13,7 @@ namespace MuscleTrainingRecords00
     public partial class RecordListPage : ContentPage
     {
         private string test;
-        public  RecordListPage(String i)
+        public  RecordListPage(String t)
         {
             InitializeComponent();
             
@@ -22,7 +22,7 @@ namespace MuscleTrainingRecords00
 
             //Records1.ItemsSource = test;
 
-            name.Text = i;
+            name.Text = t;
         }
 
 
