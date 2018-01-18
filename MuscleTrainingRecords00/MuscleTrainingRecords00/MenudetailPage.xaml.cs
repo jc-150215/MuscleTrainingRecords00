@@ -27,8 +27,8 @@ namespace MuscleTrainingRecords00
 
         private void addItemButton_Clicked(object sender, EventArgs e)
         {
-            String i = "A";
-            Navigation.PushAsync(new RecordListPage(i));
+            
+            Navigation.PushAsync(new RecordListPage(t));
 
         }
 
