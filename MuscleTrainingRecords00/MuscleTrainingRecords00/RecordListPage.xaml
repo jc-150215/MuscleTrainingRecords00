@@ -67,13 +67,10 @@
                       SeparatorColor="Black"
                       ItemTapped="Records1_ItemTapped" />
            -->
-            <StackLayout>
-            <Label Text="" x:Name="name"/>
-            </StackLayout>
-
-
-            <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />
             
+            <Label Text="" x:Name="name"/>
+
+            <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
 
         </StackLayout>
     </ContentPage.Content>
