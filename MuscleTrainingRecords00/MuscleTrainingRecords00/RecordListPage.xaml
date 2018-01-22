@@ -69,6 +69,8 @@
                       ItemTapped="Records1_ItemTapped" />
            -->
             
+            <Lable Text=""
+                   x:Name="TName"/>
 
             <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
 
