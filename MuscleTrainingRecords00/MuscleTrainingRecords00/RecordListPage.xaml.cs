@@ -13,7 +13,7 @@ namespace MuscleTrainingRecords00
     public partial class RecordListPage : ContentPage
     {
         private string test;
-        public  RecordListPage(String t)
+        public  RecordListPage()
         {
             InitializeComponent();
             
@@ -22,11 +22,9 @@ namespace MuscleTrainingRecords00
 
             //Records1.ItemsSource = test;
 
-            name.Text = t;
+            
         }
 
-
-        
         private void RecordListButton(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MenuPage());
@@ -42,7 +40,6 @@ namespace MuscleTrainingRecords00
         /* private void insertButtonClicked(object sender, EventArgs e)
          {
              Navigation.PushAsync(new RecordPage());
-
          }
          */
 
@@ -52,14 +49,8 @@ namespace MuscleTrainingRecords00
              list.IsRefreshing = false;
 
              InitializeComponent();
-
-
-
          }
          */
-
-
-
 
     }
 }
