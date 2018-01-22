@@ -13,7 +13,11 @@ namespace MuscleTrainingRecords00
     public partial class RecordListPage : ContentPage
     {
         private string test;
-        public  RecordListPage(String t)
+        public RecordListPage()
+        {
+
+        }
+        public RecordListPage(String t)
         {
             InitializeComponent();
 
