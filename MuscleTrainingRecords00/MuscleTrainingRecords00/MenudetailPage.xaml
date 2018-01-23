@@ -12,7 +12,8 @@
                    FontSize="Large"
                    FontAttributes="Bold"/>
 
-            <Image Source="dumbbell_man.png"/>
+            <Image Source=""
+                   x:Name="image"/>
 
             <Label Text=""
                    x:Name="Description"

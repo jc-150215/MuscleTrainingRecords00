@@ -13,16 +13,18 @@ namespace MuscleTrainingRecords00
     public partial class MenudetaliPage : ContentPage
     {
         string t;
-        public MenudetaliPage(String l, String m)//String m
+        public MenudetaliPage(String m, String d,String i)//String m
         {
             InitializeComponent();
 
 
-            Transition.Text = l.Trim();
+            Transition.Text = m.Trim();
 
-            Description.Text = m;
+            Description.Text = d;
 
-            t = l;
+            image = i;
+
+            t = m;
         }
 
         private void addItemButton_Clicked(object sender, EventArgs e)

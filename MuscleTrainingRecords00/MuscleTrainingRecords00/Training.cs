@@ -13,6 +13,7 @@ namespace MuscleTrainingRecords00
         public string Load { get; set; }
         public string Desc { get; set; }
         public string parts { get; set; }
+        public string image { get; set; }
 
         public string getMenu()
         {
