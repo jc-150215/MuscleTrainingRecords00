@@ -15,6 +15,8 @@ namespace MuscleTrainingRecords00
         private string test;
         public RecordListPage()
         {
+            InitializeComponent();
+            TName.Text = "";
 
         }
         public RecordListPage(String t)
