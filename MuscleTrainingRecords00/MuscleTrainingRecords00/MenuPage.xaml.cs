@@ -112,7 +112,7 @@ namespace MuscleTrainingRecords00
             await itemDataBase.InsertItemAsync(new Training() { Menu = "ブルガリアンスクワット　　　　　　　　　　　　　　　　", Load = "負荷度:☆☆☆", parts = "脚", Desc = "ベンチに片足のつま先または足の甲を乗せる。もう一方の足はベンチから下ろして前方にセットする。前方の足を膝が９０度になるまで曲げて腰を落とす。曲げた膝を伸ばして元の姿勢に戻る。", image = "dumbbell_man.png" });
             await itemDataBase.InsertItemAsync(new Training() { Menu = "ケトルプレスアウト　　　　　　　　　　　　　　　　　　", Load = "負荷度:☆☆☆", parts = "脚", Desc = "両手でケトルベルを肩の位置に持ち上げたら胸の近くへ持っていきます。深く腰を落としていき、スクワットの姿勢のまま肘を伸ばして、ケトルベルを前方に突き出していきます。そうしたら、また胸の近くへ戻していきます。腰を落とした状態を維持しながら、この動作を繰り返す。", image = "dumbbell_man.png" });
             await itemDataBase.InsertItemAsync(new Training() { Menu = "バーベルヒップスラスト　　　　　　　　　　　　　　　　", Load = "負荷度:☆☆☆", parts = "脚", Desc = "ベンチの前に膝を立てて座り、肩甲骨辺りをつけて、ベンチにもたれかかる足はこし幅にし、膝は９０度にする。ウェイトをセットしたバーベルを太ももの付け根辺りに乗せ、上げ切ったところで１秒静止する。元の位置の半分ぐらいまで戻して、また、腰を持ち上げる。", image = "dumbbell_man.png" });
-            await itemDataBase.InsertItemAsync(new Training() { Menu = "ジャンプスクワット　　　　　　　　　　　　　　　　　　", Load = "負荷度:☆☆☆", parts = "脚", Desc = "両脚を肩幅ぐらいに開き、手を頭の後ろに添える。胸を張り、背筋を伸ばしたら、セット完了。スクワットと同じ要領で膝を曲げて腰を落とす。元モモと床が平行になったら、足の裏で床を蹴り上げてジャンプする。嫡子たら、そのまま続けて腰を落とす。", image = "dumbbell_man.png");
+            await itemDataBase.InsertItemAsync(new Training() { Menu = "ジャンプスクワット　　　　　　　　　　　　　　　　　　", Load = "負荷度:☆☆☆", parts = "脚", Desc = "両脚を肩幅ぐらいに開き、手を頭の後ろに添える。胸を張り、背筋を伸ばしたら、セット完了。スクワットと同じ要領で膝を曲げて腰を落とす。元モモと床が平行になったら、足の裏で床を蹴り上げてジャンプする。嫡子たら、そのまま続けて腰を落とす。", image = "dumbbell_man.png" });
 
         }
 
