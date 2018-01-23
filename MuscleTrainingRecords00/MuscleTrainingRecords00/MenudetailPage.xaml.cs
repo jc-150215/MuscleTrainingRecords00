@@ -22,7 +22,7 @@ namespace MuscleTrainingRecords00
 
             Description.Text = d;
 
-            image.Source = i;
+            var image = new Image { Source = i  };
 
             t = m;
         }
