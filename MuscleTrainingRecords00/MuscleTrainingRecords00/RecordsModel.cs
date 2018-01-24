@@ -51,7 +51,7 @@ namespace MuscleTrainingRecords00
         }
 
         /********************インサートメソッド RecordListPage**********************/
-        public static void InsertRe(int m_no, string m_name)
+        public static void InsertRe( string m_name)
         {
             //データベースに接続する
             using (SQLiteConnection db = new SQLiteConnection(App.dbPath))
@@ -61,7 +61,7 @@ namespace MuscleTrainingRecords00
                     //データベースにFoodテーブルを作成する
                     db.CreateTable<RecordsModel>();
 
-                    db.Insert(new RecordsModel() { M_no = m_no, M_name = m_name });
+                    db.Insert(new RecordsModel() {  M_name = m_name });
                     db.Commit();
                 }
                 catch (Exception e)
