@@ -27,8 +27,10 @@ namespace MuscleTrainingRecords00
             //test = i;
 
             //Records1.ItemsSource = test;
-
-            TName.Text = RecordsModel.SelectRe();        }
+            var query = RecordsModel.SelectRe();
+            TName.Text = query; 
+            
+        }
 
         private void RecordListButton(object sender, EventArgs e)
         {
