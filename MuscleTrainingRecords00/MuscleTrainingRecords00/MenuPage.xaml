@@ -76,9 +76,9 @@
 
             <StackLayout Orientation="Vertical">
 
-                <ListView x:Name="listView"
+                <!--<ListView x:Name="listView"
                       SeparatorColor="Black"
-                       />
+                       />-->
 
             </StackLayout>
 

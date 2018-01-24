@@ -23,6 +23,6 @@
 
             <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
         </StackLayout>
-    -->
+        -->
     </ContentPage.Content>
 </ContentPage>

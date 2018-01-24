@@ -27,14 +27,14 @@ namespace MuscleTrainingRecords00
             //test = i;
 
             //Records1.ItemsSource = test;
-            var query = RecordsModel.SelectRe();
+            /*var query = RecordsModel.SelectRe();
             var layout = new StackLayout { HorizontalOption = layoutOption.Center, Margin = new Thickness { Top = 100 }  };
             foreach(var records in query)
             {
                 //listView.ItemsSource = query.ToString();
                 layout.Children.Add(new Label { Text = records.M_Name });
             }
-            Content = layout;
+            Content = layout;*/
             
         }
 
