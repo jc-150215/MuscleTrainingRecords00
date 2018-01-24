@@ -21,6 +21,8 @@ namespace MuscleTrainingRecords00
         public int M_set { get; set; } //セット数
 
         public DateTime M_date { get; set; } //日付
+
+        public string M_name { get; set; } //筋トレ名前
        
 
         //[ForeignKey(typeof(SettingModel))]
@@ -48,6 +50,27 @@ namespace MuscleTrainingRecords00
             }
         }
 
+        /********************インサートメソッド RecordListPage**********************/
+        public static void InsertRe(int m_name)
+        {
+            //データベースに接続する
+            using (SQLiteConnection db = new SQLiteConnection(App.dbPath))
+            {
+                try
+                {
+                    //データベースにFoodテーブルを作成する
+                    db.CreateTable<RecordsModel>();
+
+                    db.Insert(new RecordsModel() { M_name = m_name });
+                    db.Commit();
+                }
+                catch (Exception e)
+                {
+                    db.Rollback();
+                    System.Diagnostics.Debug.WriteLine(e);
+                }
+            }
+        }
         /*******************セレクトメソッド**************************************/
         public static List<RecordsModel> SelectRecords()
         {
@@ -61,6 +84,29 @@ namespace MuscleTrainingRecords00
                     //データベースに指定したSQLを発行
                     return db.Query<RecordsModel>("SELECT * FROM [Records]");
                    // ORDER BY[M_date]
+                }
+                catch (Exception e)
+                {
+
+                    System.Diagnostics.Debug.WriteLine(e);
+                    return null;
+                }
+            }
+        }
+
+        /*******************セレクトメソッド RecordListPage**************************************/
+        public static List<RecordsModel> SelectRe()
+        {
+
+            using (SQLiteConnection db = new SQLiteConnection(App.dbPath))
+            {
+
+                try
+                {
+
+                    //データベースに指定したSQLを発行
+                    return db.Query<RecordsModel>("SELECT M_name FROM [Records]");
+                    // ORDER BY[M_date]
                 }
                 catch (Exception e)
                 {

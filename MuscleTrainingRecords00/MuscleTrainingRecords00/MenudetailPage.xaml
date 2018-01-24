@@ -12,7 +12,7 @@
                    FontSize="Large"
                    FontAttributes="Bold"/>
 
-            <Image x:Name="image"/>
+            <!--<Image x:Name="image"/>-->
 
             <Label Text=""
                    x:Name="Description"

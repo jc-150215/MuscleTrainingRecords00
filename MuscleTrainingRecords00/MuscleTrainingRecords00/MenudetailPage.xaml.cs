@@ -12,7 +12,7 @@ namespace MuscleTrainingRecords00
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MenudetaliPage : ContentPage
     {
-        string t;
+        string n;
         public MenudetaliPage(String m, String d,String i)//String m
         {
             InitializeComponent();
@@ -22,15 +22,16 @@ namespace MuscleTrainingRecords00
 
             Description.Text = d;
 
-            image.Source = new Uri(i);
+            //image.Source = new Uri(i);
 
-            t = m;
+
+            n = m;
         }
 
         private void addItemButton_Clicked(object sender, EventArgs e)
         {
-            
-            Navigation.PushAsync(new RecordListPage(t));
+            RecordsModel.InsertRe(n);
+            Navigation.PushAsync(new RecordListPage()); //n
 
         }
 

@@ -13,13 +13,13 @@ namespace MuscleTrainingRecords00
     public partial class RecordListPage : ContentPage
     {
         private string test;
-        public RecordListPage()
+        /*public RecordListPage()
         {
             InitializeComponent();
             TName.Text = "";
 
-        }
-        public RecordListPage(String t)
+        }*/
+        public RecordListPage() //String n
         {
             InitializeComponent();
 
@@ -28,7 +28,9 @@ namespace MuscleTrainingRecords00
 
             //Records1.ItemsSource = test;
 
-            TName.Text = t;
+            String n = RecordsModel.SelectRe();
+
+            TName.Text = n;
         }
 
         private void RecordListButton(object sender, EventArgs e)
