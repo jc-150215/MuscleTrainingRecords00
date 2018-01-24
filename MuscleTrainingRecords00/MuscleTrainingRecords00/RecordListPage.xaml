@@ -17,12 +17,12 @@
                      WinPhone="0, 0, 0, 0" />
             </StackLayout.Margin>
             
-             <ListView x:Name="listView"
+             <!--<ListView x:Name="listView"
                       SeparatorColor="Black"
-                      />
+                      /> --!>
 
-            <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
-
+            <!--<Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
+--!>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
