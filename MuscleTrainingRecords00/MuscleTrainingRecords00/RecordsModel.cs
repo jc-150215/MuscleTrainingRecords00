@@ -51,7 +51,7 @@ namespace MuscleTrainingRecords00
         }
 
         /********************インサートメソッド RecordListPage**********************/
-        public static void InsertRe(int m_name)
+        public static void InsertRe(string m_name)
         {
             //データベースに接続する
             using (SQLiteConnection db = new SQLiteConnection(App.dbPath))
