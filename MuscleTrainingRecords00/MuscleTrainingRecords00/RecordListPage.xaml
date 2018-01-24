@@ -6,22 +6,23 @@
     <!--上タブタイトル-->
     <ContentPage.Content>
 
+        <!--
         <StackLayout>
 
             <StackLayout.Margin>
 
                 <!-- iOSはトップに 20 の余白が必要 -->
-                <OnPlatform x:TypeArguments="Thickness"
+                <!--<OnPlatform x:TypeArguments="Thickness"
                     iOS="0, 20, 0, 0"
                      Android="0, 0, 0, 0"
                      WinPhone="0, 0, 0, 0" />
             </StackLayout.Margin>
             
-             <!--<ListView x:Name="listView"
-                      SeparatorColor="Black"
-                      /> -->
+             <ListView x:Name="listView"
+                      SeparatorColor="Black"/> 
 
-            <!--<Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  -->
+            <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
         </StackLayout>
+    -->
     </ContentPage.Content>
 </ContentPage>
