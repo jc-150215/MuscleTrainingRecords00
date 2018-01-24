@@ -28,7 +28,10 @@ namespace MuscleTrainingRecords00
 
             //Records1.ItemsSource = test;
             var query = RecordsModel.SelectRe();
-            TName.Text = query.toString(); 
+            foreach(var records in query)
+            {
+                TName.Text = query.ToString();
+            }
             
         }
 
