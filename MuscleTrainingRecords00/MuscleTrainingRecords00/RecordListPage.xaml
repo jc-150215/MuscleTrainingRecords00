@@ -19,7 +19,7 @@
             
              <ListView x:Name="listView"
                       SeparatorColor="Black"
-                      ItemTapped="listView_ItemTapped" />
+                      />
 
             <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
 
