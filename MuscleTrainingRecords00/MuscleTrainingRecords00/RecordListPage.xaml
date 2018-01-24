@@ -17,8 +17,9 @@
                      WinPhone="0, 0, 0, 0" />
             </StackLayout.Margin>
             
-            <Label Text=""
-                   x:Name="TName"/>
+             <ListView x:Name="listView"
+                      SeparatorColor="Black"
+                      ItemTapped="listView_ItemTapped" />
 
             <Button   Clicked="RecordListButton" Text="メニュー追加" BackgroundColor="RoyalBlue" TextColor="White" FontSize="Large" VerticalOptions="EndAndExpand" />  
 

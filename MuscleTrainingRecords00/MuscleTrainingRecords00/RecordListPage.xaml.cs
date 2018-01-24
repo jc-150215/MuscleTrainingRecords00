@@ -30,7 +30,7 @@ namespace MuscleTrainingRecords00
             var query = RecordsModel.SelectRe();
             foreach(var records in query)
             {
-                TName.Text = query.ToString();
+                listView.ItemsSource = query.ToString();
             }
             
         }
