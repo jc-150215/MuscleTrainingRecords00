@@ -78,7 +78,7 @@
 
                 <ListView x:Name="listView"
                       SeparatorColor="Black"
-                      ItemTapped="listView_ItemTapped" />
+                       />
 
             </StackLayout>
 
