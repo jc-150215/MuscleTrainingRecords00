@@ -28,10 +28,7 @@ namespace MuscleTrainingRecords00
 
             //Records1.ItemsSource = test;
 
-            String n = RecordsModel.SelectRe();
-
-            TName.Text = n;
-        }
+            TName.Text = RecordsModel.SelectRe();        }
 
         private void RecordListButton(object sender, EventArgs e)
         {
